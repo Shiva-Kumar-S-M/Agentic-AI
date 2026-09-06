@@ -17,11 +17,3 @@ mechanics are understood first.
 | 7 | RAG-powered agent | Retrieval + grounding | |
 | 8+ | Persistent memory, guardrails, evals | Production concerns | |
 
-## Setup (applies to all days)
-
-1. Free API key from [console.groq.com](https://console.groq.com).
-2. Inside that day's folder: copy `.env.example` → `.env`, add your real key.
-3. `pip install -r requirements.txt`
-4. `python agent.py`
-
-**Never commit `.env`** — only `.env.example` is tracked. See `.gitignore`.
