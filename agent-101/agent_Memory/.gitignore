@@ -19,3 +19,5 @@ Thumbs.db
 
 # --- Logs ---
 *.log
+
+conversation_history.json
